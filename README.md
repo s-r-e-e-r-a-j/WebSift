@@ -25,7 +25,7 @@ cd WebSift
 bash websift.sh
 ```  
 ## Usage
-1.Provide a valid URL when prompted.
+1. Provide a valid URL when prompted.
 
 2. Choose whether to extract email addresses, phone numbers, or both.
    
