@@ -32,6 +32,13 @@ install_dependencies() {
             echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}grep not found, installing..."
             pkg install grep -y
         fi
+         
+        # Install wget if missing
+        if ! command -v wget &> /dev/null; then
+            echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed} wget not founf, installing..."
+            pkg install wget -y
+        fi
+        
     else
         # For Linux environments (Debian/Ubuntu or RedHat-based)
         echo -e "${BrightWhite}[${BrightGreen}*${BrightWhite}] ${BrightGreen}Detected Linux environment"
@@ -48,6 +55,20 @@ install_dependencies() {
                 exit 1
             fi
         fi
+
+        # Check for wget and install if missing
+        if ! command -v wget &> /dev/null; then
+            echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}wget not found, installing..."
+            if [ -x "$(command -v apt-get)" ]; then
+                sudo apt-get install wget -y
+            elif [ -x "$(command -v yum)" ]; then
+                sudo yum install wget -y
+            else
+                echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Package manager not found. Please install wget manually."
+                exit 1
+            fi
+        fi
+
         
         # Check for grep and install if missing
         if ! command -v grep &> /dev/null; then
