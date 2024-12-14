@@ -83,8 +83,8 @@ clear
 EOF
 
 echo -e "${Cyan}* Email And PhoneNumber Scraper Tool *\033[0m"
-echo -e "${BrightYellow}* GitHub:https://GitHub.com/s-r-e-e-r-a-j * \033[0m"
-echo -e "\n"
+echo -e "${BrightYellow}* GitHub:https://GitHub.com/s-r-e-e-r-a-j * \033[0m\n"
+
 }
 
 # Main function to handle input and validations
