@@ -69,6 +69,7 @@ WebSift automatically checks for and installs the following dependencies if they
 
 - **curl**
 - **grep**
+  
 No manual installation is required!
 
 ## Legal Disclaimer
