@@ -5,7 +5,7 @@ WebSift is a powerful ethical hacking and OSINT (Open-Source Intelligence) tool 
 - Scrapes **email addresses** from a given website.
 - Extracts **phone numbers** in standard formats.
 - Saves the extracted information for further analysis.
-- Automatically checks and installs missing dependencies (curl, grep).
+- Automatically checks and installs missing dependencies (curl, grep,wget).
 - Compatible with Termux and Linux distributions.
 ## Installation
 1. **Clone the Repository**
@@ -69,6 +69,7 @@ WebSift automatically checks for and installs the following dependencies if they
 
 - **curl**
 - **grep**
+- **wget**
   
 No manual installation is required!
 
