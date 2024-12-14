@@ -43,7 +43,9 @@ bash websift.sh
                           Developer:Sreeraj                                                                                                                  
                                                                                                                                                              
 * Email And PhoneNumber Scraper Tool *                                                                                                                           
-* GitHub:https://GitHub.com/s-r-e-e-r-a-j *                                                                                                                                                                                                                                                                                           [!] Checking internet connection...                                                                                                                          
+* GitHub:https://GitHub.com/s-r-e-e-r-a-j
+
+[!] Checking internet connection...                                                                                                                          
 [*] Connected to the internet.                                                                                                                               
 [*] Enter URL to begin : http://testphp.vulnweb.com                                                                                                          
 [*] Scrape emails from website (y/n) : y                                                                                                                     
