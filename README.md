@@ -74,6 +74,7 @@ No manual installation is required!
 
 ## Legal Disclaimer
 This tool is intended for legal and ethical use only. The user is solely responsible for ensuring compliance with local laws and regulations. WebSift developers are not liable for misuse or unauthorized activities conducted using this tool.
-
+## License
+This tool is open-source and available under the MIT License.
 ## About
 WebSift is an open-source project developed by Sreeraj. It combines the power of ethical hacking and OSINT techniques to provide a reliable and efficient solution for gathering publicly available information.
