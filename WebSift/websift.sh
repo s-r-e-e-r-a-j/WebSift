@@ -1,15 +1,11 @@
 #!/bin/bash
 
 # Color codes
-DarkGray="\e[1;90m"
 BrightRed="\e[1;91m"
 BrightGreen="\e[1;92m"
 BrightYellow="\e[1;93m"
-BrightBlue="\e[1;94m"
-BrightPurple="\e[1;95m"
 BrightWhite="\e[1;97m"
 Cyan="\e[1;96m"
-Magenta="\e[1;95m"
 
 clear
 
