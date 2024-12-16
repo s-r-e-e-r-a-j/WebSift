@@ -96,7 +96,6 @@ clear
        \/  \/ \___|_.__/  |_____/|_|_|  \__|
                                           
                          Developer: Sreeraj         
-
                                                                                                                       
 EOF
 
