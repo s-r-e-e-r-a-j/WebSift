@@ -40,11 +40,11 @@ bash websift.sh
       \  /\  /  __/ |_) |  ____) | | | | |_                                                                                                                  
        \/  \/ \___|_.__/  |_____/|_|_|  \__|                                                                                                                 
                                                                                                                                                              
-                          Developer:Sreeraj                                                                                                                  
+                          Developer: Sreeraj                                                                                                                  
                                                                                                                                                              
 * Email And PhoneNumber Scraper Tool
 * Copyright © Sreeraj, 2024                                                                       
-* GitHub:https://GitHub.com/s-r-e-e-r-a-j
+* GitHub: https://GitHub.com/s-r-e-e-r-a-j
 
 [!] Checking internet connection...                                                                                                                          
 [*] Connected to the internet.                                                                                                                               
