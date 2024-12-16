@@ -96,7 +96,8 @@ clear
        \/  \/ \___|_.__/  |_____/|_|_|  \__|
                                           
                          Developer: Sreeraj         
-                                                                                                                        
+
+                                                                                                                      
 EOF
 
 echo -e "${Cyan}* Email And PhoneNumber Scraper Tool\033[0m"
