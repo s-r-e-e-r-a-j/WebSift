@@ -36,7 +36,7 @@ install_dependencies() {
         fi
         
     else
-        # For Linux environments (ubuntu,kalilinux,parrot os etc..)
+        # For Linux environments (ubuntu,kalilinux,parrot os and other linux based distributions)
         echo -e "${BrightWhite}[${BrightGreen}*${BrightWhite}] ${BrightGreen}Detected Linux environment"
 
         # Check for curl and install if missing
