@@ -42,7 +42,8 @@ bash websift.sh
                                                                                                                                                              
                           Developer:Sreeraj                                                                                                                  
                                                                                                                                                              
-* Email And PhoneNumber Scraper Tool                                                * Copyright © Sreeraj, 2024                                                                        
+* Email And PhoneNumber Scraper Tool
+* Copyright © Sreeraj, 2024                                                                       
 * GitHub:https://GitHub.com/s-r-e-e-r-a-j
 
 [!] Checking internet connection...                                                                                                                          
