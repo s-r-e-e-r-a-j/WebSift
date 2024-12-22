@@ -45,7 +45,7 @@ bash websift.sh
                                                                                                                                                  
                          Developer: Sreeraj                                                                                                      
                                                                                                                                                  
-* Email, Phone Number, and Social Media Link Scraper Tool                                                                                        
+* Email, Phone Number, Social Media Links, and Other Links Scraper Tool                                                                                        
 * Copyright Â© Sreeraj, 2024                                                                                                                      
 * GitHub: https://github.com/s-r-e-e-r-a-j                                                                                                       
                                                                                                                                                  
@@ -64,7 +64,7 @@ wvs@acunetix.com
 http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0                                                             
 https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/                                                
 https://www.acunetix.com/vulnerability-scanner/                                                                                                  
-https://www.acunetix.com/vulnerability-scanner/php-security-scanner/                                                                             
+https://www.acunetix.com/vulnerability-scanner/php-security-scanner/                                            
 http://www.eclectasy.com/Fractal-Explorer/index.html                                                                                             
 http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash                                                            
 http://www.w3.org/TR/html4/loose.dtd                                                                                                             
