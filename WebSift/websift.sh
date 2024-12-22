@@ -167,7 +167,7 @@ phone_scrape() {
     fi
 }
 
-# Social media scraping function
+# Social media links and other links scraping function
 social_media_scrape() {
     grep -Eo 'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}/[^" ]+' temp_file.txt | sort -u > social_media_output.txt
     if [[ -s social_media_output.txt ]]; then
