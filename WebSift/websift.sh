@@ -157,7 +157,7 @@ email_scrape() {
 
 # Phone scraping function
 phone_scrape() {
-    grep -o '\+?[0-9]{1,3}?[ -.]?\(?[0-9]{3}\)?[ -.]?[0-9]{3}[ -.]?[0-9]{4}' temp_file.txt | sort -u > phone_output.txt
+    grep -o '([0-9]\{3\}-[0-9]\{3\}-[0-9]\{4\})|(([0-9]\{3\})[0-9]\{3\}-[0-9]\{4\})|([0-9]\{10\})|([0-9]\{3\}\s[0-9]\{3\}\s[0-9]\{4\})' temp_file.txt | sort -u > phone_output.txt
     if [[ -s phone_output.txt ]]; then
         echo -e "${BrightWhite}[${BrightYellow}*$BrightWhite] ${BrightYellow}Phone numbers extracted successfully:${BrightWhite}"
         cat phone_output.txt
