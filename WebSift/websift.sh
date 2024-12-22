@@ -111,7 +111,7 @@ main_function() {
     if [[ $target_url =~ $url_pattern ]]; then 
         read -p $'\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Scrape emails from website (y/n) : \e[1;97m' email_option
         read -p $'\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Scrape phone numbers from website (y/n) : \e[1;97m' phone_option
-        read -p $'\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Scrape social media links (y/n) : \e[1;97m' social_media_option
+        read -p $'\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Scrape social media links or other links (y/n) : \e[1;97m' social_media_option
         if [[ "$email_option" =~ ^[Yy]$ || "$phone_option" =~ ^[Yy]$ || "$social_media_option" =~ ^[Yy]$ ]]; then
             echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Scraping started"
             scrape_function
@@ -171,10 +171,10 @@ phone_scrape() {
 social_media_scrape() {
     grep -Eo 'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}/[^" ]+' temp_file.txt | sort -u > social_media_output.txt
     if [[ -s social_media_output.txt ]]; then
-        echo -e "${BrightWhite}[${BrightYellow}*$BrightWhite] ${BrightYellow}Social media links extracted successfully:${BrightWhite}"
+        echo -e "${BrightWhite}[${BrightYellow}*$BrightWhite] ${BrightYellow}Social media links or other links extracted successfully:${BrightWhite}"
         cat social_media_output.txt
     else 
-        echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}No social media links found."
+        echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}No social media links or other links found."
         rm social_media_output.txt
     fi
 }
