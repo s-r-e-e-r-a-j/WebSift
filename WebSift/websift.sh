@@ -169,7 +169,7 @@ phone_scrape() {
 
 # Social media scraping function
 social_media_scrape() {
-    grep -Eo 'https?://(www\.)?(facebook|twitter|instagram|linkedin|youtube|snapchat|github)\.com/[^" ]+' temp_file.txt | sort -u > social_media_output.txt
+    grep -Eo 'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}/[^" ]+' temp_file.txt | sort -u > social_media_output.txt
     if [[ -s social_media_output.txt ]]; then
         echo -e "${BrightWhite}[${BrightYellow}*$BrightWhite] ${BrightYellow}Social media links extracted successfully:${BrightWhite}"
         cat social_media_output.txt
