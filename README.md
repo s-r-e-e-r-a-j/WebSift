@@ -60,7 +60,7 @@ bash websift.sh
 wvs@acunetix.com                                                                                                                                 
 [*] Phone numbers extracted successfully:                                                                                                        
 4445535400                                                                                                                                       
-[*] Social media links or other links extracted successfully:                                                                                    
+[*] Social media links and other links extracted successfully :                                                                                    
 http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0                                                             
 https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/                                                
 https://www.acunetix.com/vulnerability-scanner/                                                                                                  
