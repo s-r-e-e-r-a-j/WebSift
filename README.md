@@ -27,8 +27,8 @@ bash websift.sh
 ```  
 ## Usage
 1. Provide a valid URL when prompted.
-
-2. Choose whether to extract email addresses, phone numbers, or both.
+   
+2. Choose whether to extract email addresses, phone numbers, social media links, or all three.
    
 3. Optionally save the extracted data to a folder.
 ## Example
