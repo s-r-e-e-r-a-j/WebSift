@@ -33,45 +33,44 @@ bash websift.sh
 3. Optionally save the extracted data to a folder.
 ## Example
 ```markdown
- 
-                                                                                                                                                     
-                                                                                                                                                 
-   __          __  _        _____ _  __ _                                                                                                        
-   \ \        / / | |      / ____(_)/ _| |                                                                                                       
-    \ \  /\  / /__| |__   | (___  _| |_| |_                                                                                                      
-     \ \/  \/ / _ \ '_ \   \___ \| |  _| __|                                                                                                     
-      \  /\  /  __/ |_) |  ____) | | | | |_                                                                                                      
-       \/  \/ \___|_.__/  |_____/|_|_|  \__|                                                                                                     
-                                                                                                                                                 
-                         Developer: Sreeraj                                                                                                      
-                                                                                                                                                 
-* Email, Phone Number, Social Media Links, and Other Links Scraper Tool                                                                                        
-* Copyright Â© Sreeraj, 2024                                                                                                                      
-* GitHub: https://github.com/s-r-e-e-r-a-j                                                                                                       
-                                                                                                                                                 
-[!] Checking internet connection...                                                                                                              
-[*] Connected to the internet.                                                                                                                   
-[*] Enter URL to begin : http://testphp.vulnweb.com                                                                                              
-[*] Scrape emails from website (y/n) : y                                                                                                         
-[*] Scrape phone numbers from website (y/n) : y                                                                                                  
-[*] Scrape social media links or other links (y/n) : y                                                                                           
-[!] Scraping started                                                                                                                             
-[*] Emails extracted successfully:                                                                                                               
-wvs@acunetix.com                                                                                                                                 
-[*] Phone numbers extracted successfully:                                                                                                        
-4445535400                                                                                                                                       
-[*] Social media links and other links extracted successfully :                                                                                    
-http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0                                                             
-https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/                                                
-https://www.acunetix.com/vulnerability-scanner/                                                                                                  
-https://www.acunetix.com/vulnerability-scanner/php-security-scanner/                                            
-http://www.eclectasy.com/Fractal-Explorer/index.html                                                                                             
-http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash                                                            
-http://www.w3.org/TR/html4/loose.dtd                                                                                                             
-[*] Do you want to save the output (y/n) : y                                                                                                     
-[*] Enter folder name : results                                                                                                                  
-[*] Output saved successfully in results                                                                                                                     
-[!] Exiting....                                                                                                                                                         
+                                                                                                                                                                                              
+                                                                                                                                                                                             
+   __          __  _        _____ _  __ _                                                                                                                                                    
+   \ \        / / | |      / ____(_)/ _| |                                                                                                                                                   
+    \ \  /\  / /__| |__   | (___  _| |_| |_                                                                                                                                                  
+     \ \/  \/ / _ \ '_ \   \___ \| |  _| __|                                                                                                                                                 
+      \  /\  /  __/ |_) |  ____) | | | | |_                                                                                                                                                  
+       \/  \/ \___|_.__/  |_____/|_|_|  \__|                                                                                                                                                 
+                                                                                                                                                                                             
+                         Developer: Sreeraj                                                                                                                                                  
+                                                                                                                                                                                             
+* Email, Phone Number, Social Media Links, and Other Links Scraper Tool                                                                                                                      
+* Copyright © Sreeraj, 2024                                                                                                                                                                  
+* GitHub: https://github.com/s-r-e-e-r-a-j                                                                                                                                                   
+                                                                                                                                                                                             
+[!] Checking internet connection...                                                                                                                                                          
+[*] Connected to the internet.                                                                                                                                                               
+[*] Enter URL to begin : http://testphp.vulnweb.com                                                                                                                                          
+[*] Scrape emails from website? (y/n) : y                                                                                                                                                    
+[*] Scrape phone numbers from website? (y/n) : y                                                                                                                                             
+[*] Scrape social media links or other links? (y/n) : y                                                                                                                                      
+[!] Scraping started                                                                                                                                                                         
+[*] Emails extracted successfully:                                                                                                                                                           
+wvs@acunetix.com                                                                                                                                                                             
+[*] Phone numbers extracted successfully:                                                                                                                                                    
+4445535400                                                                                                                                                                                   
+[*] Social media links and other links extracted successfully:                                                                                                                               
+http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0                                                                                                         
+https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/                                                                                            
+https://www.acunetix.com/vulnerability-scanner/                                                                                                                                              
+https://www.acunetix.com/vulnerability-scanner/php-security-scanner/                                                                                                                         
+http://www.eclectasy.com/Fractal-Explorer/index.html                                                                                                                                         
+http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash                                                                                                        
+http://www.w3.org/TR/html4/loose.dtd                                                                                                                                                         
+[*] Do you want to save the output (y/n) : y                                                                                                                                                 
+[*] Enter folder name : result                                                                                                                                                               
+[*] Output saved successfully in result                                                                                                                                                      
+[!] Exiting....                                                                                                                                                                             
 ```                   
 
 
