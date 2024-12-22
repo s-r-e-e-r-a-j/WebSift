@@ -1,5 +1,5 @@
 ## WebSift
-WebSift is a powerful ethical hacking and OSINT (Open-Source Intelligence) tool designed to extract email addresses and phone numbers from websites.developed for Termux and Linux-based systems. This tool is ideal for security professionals and researchers who need to gather publicly available information for ethical and legal purposes.
+WebSift is a powerful ethical hacking and OSINT (Open-Source Intelligence) tool designed to extract email addresses, phone numbers, and social media links from websites. It is developed for Termux and Linux-based systems. This tool is ideal for security professionals and researchers who need to gather publicly available information for ethical and legal purposes.
 
 ## Features
 - Scrapes **email addresses** from a given website.
