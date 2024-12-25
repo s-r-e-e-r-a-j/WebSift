@@ -111,7 +111,7 @@ main_function() {
     if [[ $target_url =~ $url_pattern ]]; then 
         read -p $'\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Scrape emails from website? (y/n) : \e[1;97m' email_option
         read -p $'\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Scrape phone numbers from website? (y/n) : \e[1;97m' phone_option
-        read -p $'\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Scrape social media links or other links? (y/n) : \e[1;97m' social_media_option
+        read -p $'\e[1;97m[\e[1;92m*\e[1;97m]\e[1;92m Scrape social media links and other links? (y/n) : \e[1;97m' social_media_option
         if [[ "$email_option" =~ ^[Yy]$ || "$phone_option" =~ ^[Yy]$ || "$social_media_option" =~ ^[Yy]$ ]]; then
             echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Scraping started"
             scrape_function
