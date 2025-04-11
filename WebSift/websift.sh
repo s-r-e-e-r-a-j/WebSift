@@ -99,7 +99,6 @@ display_banner() {
 EOF
 
     echo -e "${Cyan}* Email, Phone Number, and Link Scraper Tool \033[0m"
-    echo -e "${BrightYellow}* Copyright © Sreeraj, 2024\033[0m"
     echo -e "${BrightYellow}* GitHub: https://github.com/s-r-e-e-r-a-j\033[0m\n"
 }
 
