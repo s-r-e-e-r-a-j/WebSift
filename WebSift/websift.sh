@@ -44,7 +44,7 @@ install_dependencies() {
              echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}curl not found, installing..."
 
              if command -v apt-get &> /dev/null; then
-                 sudo apt-get update && sudo apt-get install curl -y
+                  sudo apt-get update && sudo apt-get install curl -y
              elif command -v yum &> /dev/null; then
                   sudo yum install curl -y
              elif command -v dnf &> /dev/null; then
@@ -82,7 +82,7 @@ install_dependencies() {
              echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}grep not found, installing..."
 
              if command -v apt-get &> /dev/null; then
-                sudo apt-get update && sudo apt-get install grep -y
+                  sudo apt-get update && sudo apt-get install grep -y
              elif command -v yum &> /dev/null; then
                   sudo yum install grep -y
              elif command -v dnf &> /dev/null; then
