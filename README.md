@@ -7,7 +7,7 @@ WebSift is a powerful ethical hacking and OSINT (Open-Source Intelligence) tool 
 - Scrapes **social media links** and **other URLs** from websites to enhance OSINT capabilities
 - Saves the extracted information for further analysis.
 - Automatically checks and installs missing dependencies (curl, grep, wget).
-- Compatible with **Termux** and **Debian Linux distributions**
+- Compatible with **Termux** and **Linux distributions**
 
 ## Installation
 1. **Clone the Repository**
