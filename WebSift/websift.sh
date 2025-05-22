@@ -93,7 +93,7 @@ install_dependencies() {
                   echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Package manager not found. Please install grep manually."
                   exit 1
              fi
-       fi
+        fi
 
     fi
 }
