@@ -41,42 +41,60 @@ install_dependencies() {
 
         # Check for curl and install if missing
         if ! command -v curl &> /dev/null; then
-            echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}curl not found, installing..."
-            if [ -x "$(command -v apt-get)" ]; then
-                sudo apt-get install curl -y
-            elif [ -x "$(command -v yum)" ]; then
-                sudo yum install curl -y
-            else
-                echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Package manager not found. Please install curl manually."
-                exit 1
-            fi
+             echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}curl not found, installing..."
+
+             if command -v apt-get &> /dev/null; then
+                 sudo apt-get update && sudo apt-get install curl -y
+             elif command -v yum &> /dev/null; then
+                  sudo yum install curl -y
+             elif command -v dnf &> /dev/null; then
+                  sudo dnf install curl -y
+             elif command -v pacman &> /dev/null; then
+                  sudo pacman -Sy curl --noconfirm
+             else
+              echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Package manager not found. Please install curl manually."
+              exit 1
+             fi
         fi
+
 
         # Check for wget and install if missing
         if ! command -v wget &> /dev/null; then
-            echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}wget not found, installing..."
-            if [ -x "$(command -v apt-get)" ]; then
-                sudo apt-get install wget -y
-            elif [ -x "$(command -v yum)" ]; then
-                sudo yum install wget -y
-            else
-                echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Package manager not found. Please install wget manually."
-                exit 1
-            fi
+             echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}wget not found, installing..."
+
+             if command -v apt-get &> /dev/null; then
+                  sudo apt-get update && sudo apt-get install wget -y
+             elif command -v yum &> /dev/null; then
+                  sudo yum install wget -y
+             elif command -v dnf &> /dev/null; then
+                  sudo dnf install wget -y
+             elif command -v pacman &> /dev/null; then
+                  sudo pacman -Sy wget --noconfirm
+             else
+                  echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Package manager not found. Please install wget manually."
+                  exit 1
+             fi
         fi
+
 
         # Check for grep and install if missing
         if ! command -v grep &> /dev/null; then
-            echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}grep not found, installing..."
-            if [ -x "$(command -v apt-get)" ]; then
-                sudo apt-get install grep -y
-            elif [ -x "$(command -v yum)" ]; then
-                sudo yum install grep -y
-            else
-                echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Package manager not found. Please install grep manually."
-                exit 1
-            fi
-        fi
+             echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}grep not found, installing..."
+
+             if command -v apt-get &> /dev/null; then
+                sudo apt-get update && sudo apt-get install grep -y
+             elif command -v yum &> /dev/null; then
+                  sudo yum install grep -y
+             elif command -v dnf &> /dev/null; then
+                  sudo dnf install grep -y
+             elif command -v pacman &> /dev/null; then
+                  sudo pacman -Sy grep --noconfirm
+             else
+                  echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Package manager not found. Please install grep manually."
+                  exit 1
+             fi
+       fi
+
     fi
 }
 
