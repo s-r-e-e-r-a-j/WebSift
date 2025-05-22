@@ -52,8 +52,8 @@ install_dependencies() {
              elif command -v pacman &> /dev/null; then
                   sudo pacman -Sy curl --noconfirm
              else
-              echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Package manager not found. Please install curl manually."
-              exit 1
+                  echo -e "${BrightWhite}[${BrightRed}!${BrightWhite}] ${BrightRed}Package manager not found. Please install curl manually."
+                  exit 1
              fi
         fi
 
