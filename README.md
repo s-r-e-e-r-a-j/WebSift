@@ -9,6 +9,8 @@ WebSift is a powerful ethical hacking and OSINT (Open-Source Intelligence) tool 
 - Automatically checks and installs missing dependencies (curl, grep, wget).
 - Compatible with **Termux** and **Linux distributions**
 
+## Legal Disclaimer
+This tool is intended for legal and ethical use only. The user is solely responsible for ensuring compliance with local laws and regulations. WebSift developers are not liable for misuse or unauthorized activities conducted using this tool.
 ## Installation
 1. **Clone the Repository**
 ```bash
@@ -84,8 +86,6 @@ WebSift automatically checks for and installs the following dependencies if they
   
 No manual installation is required!
 
-## Legal Disclaimer
-This tool is intended for legal and ethical use only. The user is solely responsible for ensuring compliance with local laws and regulations. WebSift developers are not liable for misuse or unauthorized activities conducted using this tool.
 ## License
 This tool is open-source and available under the MIT License.
 ## About
