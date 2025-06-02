@@ -10,7 +10,8 @@ WebSift is a powerful ethical hacking and OSINT (Open-Source Intelligence) tool 
 - Compatible with **Termux** and **Linux distributions**
 
 ## Legal Disclaimer
-This tool is intended for legal and ethical use only. The user is solely responsible for ensuring compliance with local laws and regulations. WebSift developers are not liable for misuse or unauthorized activities conducted using this tool.
+This tool is intended for legal and ethical use only. WebSift developers are not liable for misuse or unauthorized activities conducted using this tool.
+
 ## Installation
 1. **Clone the Repository**
 ```bash
