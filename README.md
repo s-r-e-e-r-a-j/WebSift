@@ -84,5 +84,3 @@ http://www.w3.org/TR/html4/loose.dtd
 
 ## License
 This tool is open-source and available under the MIT License.
-## About
-WebSift is an open-source project developed by Sreeraj. It combines the power of ethical hacking and OSINT techniques to provide a reliable and efficient solution for gathering publicly available information.
