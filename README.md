@@ -48,10 +48,7 @@ bash websift.sh
                                                                                                                                                                                              
                          Developer: Sreeraj                                                                                                                                                  
                                                                                                                                                                                              
-* Email, Phone Number, Social Media Links, and Other Links Scraper Tool                                                                                                                      
-* Copyright © Sreeraj, 2024                                                                                                                                                                  
-* GitHub: https://github.com/s-r-e-e-r-a-j                                                                                                                                                   
-                                                                                                                                                                                             
+* Email, Phone Number, Social Media Links, and Other Links Scraper Tool                                                                                            * GitHub: https://github.com/s-r-e-e-r-a-j                                                                                                                                   
 [!] Checking internet connection...                                                                                                                                                          
 [*] Connected to the internet.                                                                                                                                                               
 [*] Enter URL to begin : http://testphp.vulnweb.com                                                                                                                                          
