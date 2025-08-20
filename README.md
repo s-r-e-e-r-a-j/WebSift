@@ -48,7 +48,7 @@ bash websift.sh
                                                                                                                                                                                              
                          Developer: Sreeraj                                                                                                                                                  
                                                                                                                                                                                              
-* Email, Phone Number, Social Media Links, and Other Links Scraper Tool
+* Email, Phone Number, and Links Scraper Tool
 * GitHub: https://github.com/s-r-e-e-r-a-j
                                                                                                                                   
 [!] Checking internet connection...                                                                                                                                                          
