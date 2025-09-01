@@ -18,6 +18,9 @@ WebSift automatically checks for and installs the following dependencies if they
   
 No manual installation is required!
 
+## Disclaimer 
+This tool is for educational and ethical OSINT purposes only. Use it only on websites you own or have explicit permission to analyze. The developer is not responsible for any misuse.
+
 ## Installation
 1. **Clone the Repository**
 ```bash
